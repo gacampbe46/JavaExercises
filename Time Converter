@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Program {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int days = scanner.nextInt();
+		
+		//your code goes here
+		int hours = days*24; // convert days to hours
+		int minutes = hours*60; // convert hours to minutes
+		int seconds = minutes*60; // convert minutes to seconds
+
+		System.out.println(seconds); // print amount of seconds
+	}
+}
