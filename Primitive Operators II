@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+
+   public static void main(String[] args) {
+       Scanner myScanner = new Scanner(System.in);
+       double pi = 3.14;
+       //your code goes here
+       
+       float radius = myScanner.nextFloat();
+       System.out.println(radius*2*pi);
+
+
+   }
+}
