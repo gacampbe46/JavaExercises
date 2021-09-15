@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner = new Scanner(System.in);
+            int  number = scanner.nextInt();
+            int fact = 1;
+            //your code goes here
+            int answer = number;
+
+            while( fact < number )
+            {
+                answer = answer * fact; 
+                fact++;
+            }
+        System.out.println(answer);
+    }
+}
